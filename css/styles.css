@@ -113,7 +113,7 @@ body {
 
 /* Title */
 .main_title {
-    background-image: url(/images/background.jpg);
+    background-image: url(../images/background.jpg);
     background-color: #2f303a;
     color: #fff;
     width: 100%;
