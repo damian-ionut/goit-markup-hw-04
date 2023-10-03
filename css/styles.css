@@ -121,6 +121,10 @@ body {
     text-align: center;
 }
 
+element.style {
+    overflow-x: hidden;
+}
+
 .title_container {
     display: flex;
     align-items: center;
@@ -173,12 +177,13 @@ body {
 /* Team Qualities */
 
 .team_qualities_section {
+    display: flex;
+    justify-self: center;
+    margin: auto;
     background-color: #ffffff;
-    width: 1170px;
-    height: 101px;
     top: 774px;
-    padding-left: 170px;
-    display: inline-block;
+    width: 1170px;
+    height: 251px;
   }
 
 ul.team_qualities {
@@ -356,8 +361,9 @@ ul.team_qualities {
 }
 
 .client_section {
+    display: flex;
     margin-bottom: 94px;
-    margin-left: 110px;
+    justify-content: center;
 }
 
 .client_link:hover .client_icon,
@@ -484,7 +490,7 @@ button:focus {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-left: 100px;
+    justify-content: center;
 }
 .gallery_list {
     border: 1px solid #EEEEEE;
@@ -558,7 +564,13 @@ button:focus {
 /* For all pages */
 ul {
     list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
+
 a{
     text-decoration: none;
     color: var(--primary-color);
